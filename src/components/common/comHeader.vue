@@ -7,7 +7,7 @@
             <v-avatar
               rounded="0"
               class="mr-3"
-              image="https://cdn.vuetifyjs.com/docs/images/logos/v.png"
+              image="src/assets/images/bee.png"
             />
           </router-link>
           <div>So Wallet</div>

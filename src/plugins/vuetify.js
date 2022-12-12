@@ -29,7 +29,7 @@ export default createVuetify({
       flat: true,
     },
     VBtn: {
-      color: 'primary',
+      color: 'black',
       height: 44,
       minWidth: 190,
     },

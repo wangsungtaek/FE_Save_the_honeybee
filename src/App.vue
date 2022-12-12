@@ -7,7 +7,7 @@
           <router-view></router-view>
         </v-sheet>
       </section>
-      <section id="hero">
+      <!-- <section id="hero">
         <v-sheet
           class="d-flex align-center pb-16"
           color="grey-lighten-3"
@@ -201,7 +201,7 @@
             </v-row>
           </v-container>
         </section>
-      </v-sheet>
+      </v-sheet> -->
       <comFooter />
     </v-main>
   </v-app>
@@ -219,3 +219,28 @@
     },
   }
 </script>
+<style>
+  @font-face {
+    font-family: 'KyoboHand';
+    src: url('../src/assets/font/KyoboHandwriting2019.ttf') format('ttf');
+  }
+  @font-face{
+    font-family: 'KOFIHDrLEEJWTTF-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/KOFIHDrLEEJWTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  #app {
+    font-family: 'KOFIHDrLEEJWTTF-B';
+  }
+  a {
+    text-decoration: none;
+  }
+
+</style>
